@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: background 1500ms ease;
+}
+
+.Apps {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  padding: 0;
+  transition: background 1500ms ease;
+}
+
+#quote-box {
+  align-items: center;
+  background: ghostwhite;
+  border-radius: 2px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px;
+  padding: 30px 50px;
+}
+
+#quote-box span {
+  display: inline-block;
+}
+
+#text {
+  font-family: 'Raleway';
+  font-size: 2em;
+  font-weight: 500;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#author {
+  font-family: 'Raleway';
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.fa-quote-left {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.fa-quote-right {
+  float: right;
+  margin-top: 10px;
+}
+
+.buttons {
+  border-top: 1px dashed;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.button {
+  border-radius: 2px;
+  color: ghostwhite;
+  margin-left: 6px;
+  padding: 6px;
+  transition: background 1000ms ease;
+}
+
+.new-quote-btn {
+  border: 0;
+  border-radius: 2px;
+  color: ghostwhite;
+  cursor: pointer;
+  padding: 8px 10px;
+  transition: background 1000ms ease;
+}
+
+.new-quote-btn[disabled] {
+  cursor: wait;
+}
+
+.button:hover,
+.new-quote-btn:hover {
+  opacity: 0.85;
+}
+
+.button:active,
+.new-quote-btn:active {
+  opacity: 1;
+}
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+select:focus {
+  outline: none;
+  border-color: #5b9dd9;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.left {
+  align-items: center;
+  display: flex;
+}
+.middle{
+  align-items: center;
+  display: flex;
+}
+.right {
+  align-items: center;
+  display: flex;
+}
+
+.gh-button {
+  color: ghostwhite;
+  margin-top: 20px;
+  opacity: 0.85;
+}
+
+.gh-button:hover {
+  opacity: 1;
+}
