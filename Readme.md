@@ -4,7 +4,7 @@
 - Clone the repo
 
   ```bash
-  git clone https://github.com/quotalog.git
+  git clone [https://github.com/quotalog.git](https://github.com/Deepanshu0703/Quatalog.git)
   cd quotalog
   ```
 
