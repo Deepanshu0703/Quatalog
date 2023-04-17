@@ -4,17 +4,11 @@
 - Clone the repo
 
   ```bash
-  git clone https://github.com/caglarturali/quotalog.git
+  git clone https://github.com/quotalog.git
   cd quotalog
   ```
 
 - Install the dependencies
-
-  ```bash
-  yarn install
-  ```
-
-  `or`
 
   ```bash
   npm install
@@ -23,20 +17,11 @@
 - Start a development server
 
   ```bash
-  yarn start
-  ```
-
-  `or`
-
-  ```bash
   npm start
   ```
 
 - Build for production
-  ```bash
-  yarn build
-  ```
-  `or`
+
   ```bash
   npm run build
   ```
